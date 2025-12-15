@@ -29,7 +29,7 @@ pipeline {
 
     environment {
         APP_NAME = "node-web-app"
-        DOCKER_IMAGE = "itpacific45/node-web-app"
+        DOCKER_IMAGE = "bthiery/node-web-app"
         DOCKER_TAG = "latest"
         CONTAINER_NAME = "node-web-app-container"
         DOCKER_CREDENTIALS_ID = "docker-hub-credential-id"
